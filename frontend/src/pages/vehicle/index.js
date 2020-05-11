@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
 import VehicleInfo from '../../components/VehicleInfo';
 import {CloseMessage} from '../../components/MessageQuestion';
-import './styles.css';
 import VehicleNotFound from '../../components/VehicleNotFound';
 import { useDispatch} from 'react-redux';
 
