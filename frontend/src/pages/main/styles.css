@@ -1,0 +1,110 @@
+.vehicle-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.vehicle-list article {
+    background: var(--black-color);
+    border: 1px solid var(--black-color);
+    box-shadow: 0 4px 8px 0 var(--shadow);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.vehicle-list article p {
+    font-size: 16px;
+    color: var(--dark-gray-color);
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.vehicle-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid var(--red-color);
+    background: none;
+    margin-top: 10px;
+    color: var(--red-color);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.vehicle-list article a:hover{
+    background: var(--red-color);
+    color: var(--white-color);
+}
+
+.vehicle-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.vehicle-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: var(--blue-color);
+    color: var(--white-color);
+    font-size:  16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.vehicle-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.vehicle-list .actions button:hover,  .vehicle-list .icone:hover{
+    opacity: 0.7;
+}
+
+.vehicle-list .actions button[disabled]:hover{
+    opacity: 0.5;
+}
+
+.vehicle-list input{
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid var(--dark-gray-color);
+    box-shadow: 0 4px 8px 0 var(--shadow);
+    transition: .4s;
+    color: var(--gray-color);
+    font-weight: bold;
+}
+
+.vehicle-list input:hover{
+    border: 1px solid var(--gray-color);
+}
+
+.vehicle-list .icone {
+  padding: 8px;
+  color: var(--white-color);
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+  width: 50px;
+  transition: .4s;
+}
+
+.red{
+    background: var(--red-color);
+}
+
+.green{
+    background: var(--green-color);
+}

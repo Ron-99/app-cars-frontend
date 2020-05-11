@@ -1,0 +1,53 @@
+.vehicle-info{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--black-color);
+    border: 1px solid var(--black-color);
+    box-shadow: 0 4px 8px 0 var(--shadow);
+}
+
+.vehicle-info h1{
+    font-size: 32px;
+}
+
+.vehicle-info p {
+    color: var(--dark-gray-color);
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.vehicle-info p a {
+    color: var(--blue-color);
+}
+
+.vehicle-info .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vehicle-info .actions button{
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: var(--white-color);
+    font-size:  16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px
+    
+}
+
+#edit{
+    background: var(--blue-color);
+}
+
+#delete{
+    background: var(--red-color);
+}
+
+#delete:disabled{
+    opacity: 0.5;
+    cursor: default;
+}

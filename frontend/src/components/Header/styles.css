@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+
+header#main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header#main-header nav{
+    width: 40%;
+}
+
+header#main-header nav .menu{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0 25px;
+}
+
+header#main-header nav .menu li {
+    margin: 0 10px;
+}
+
+header#main-header nav .menu li .link, .sair{
+    text-decoration: none;
+    color: var(--white-color);
+    transition: .4s;
+}
+
+header#main-header nav .menu li .link:hover{
+    color: var(--blue-color);
+}
+
+header#main-header nav .menu li .sair:hover{
+    color: var(--red-color);
+}
+
+header#main-header .logo {
+    width: 60%;
+    height: 15vh;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e7e7e7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header#main-header .logo img{
+    width: 100px;
+
+}
+
+header#main-header .logo h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 20px;
+}
